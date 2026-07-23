@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPynb / Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Datasets and Large Files (Jangan upload dataset ke GitHub)
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.tar.gz
+
+# Model weights and outputs
+outputs/
+*.h5
+*.keras
+*.pkl
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
